@@ -6,7 +6,7 @@
 body {
   font-family: "Segoe UI", sans-serif;
   background: white ;
-  color: #eee;
+  color: black;
   padding-top: 60px; /* To prevent content from hiding under navbar */
 }
 .btn {
@@ -32,7 +32,7 @@ body {
 }
 .hero-left h2 {
   font-size: 1.5rem;
-  color: #aaa;
+  color: black;
   margin-bottom: 0.5rem;
 }
 .hero-left h1 {
