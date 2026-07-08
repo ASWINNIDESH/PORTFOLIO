@@ -5,7 +5,7 @@
 }
 body {
   font-family: "Segoe UI", sans-serif;
-  background: #0f0f13;
+  background: white ;
   color: #eee;
   padding-top: 60px; /* To prevent content from hiding under navbar */
 }
