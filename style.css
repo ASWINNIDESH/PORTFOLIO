@@ -335,7 +335,7 @@ a {
   transition: background 0.2s;
 }
 .contact-form button:hover {
-  background: white;
+  background: black;
   color: #fff;
 }
 .contact-links {
