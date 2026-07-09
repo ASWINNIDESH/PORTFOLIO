@@ -11,7 +11,7 @@ async function fetchGithub() {
     document.getElementById("avatar").src = user.avatar_url;
     document.getElementById("name").textContent = user.name || user.login;
     // document.getElementById("bio").textContent = user.bio || ""; // <-- Remove this line
-    document.getElementById("resumeBtn").href = user.blog || user.html_url;
+    // document.getElementById("resumeBtn").href = user.blog || user.html_url;
 
     const reposRes = await fetch(
       `https://api.github.com/users/${username}/repos?sort=updated`
